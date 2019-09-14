@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: Picks+
+email: contact@picksplus.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: picksplus
+github_username: zevlabs
 
 # Build settings
 markdown: kramdown
