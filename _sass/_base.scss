@@ -44,6 +44,15 @@ p {
 
 .bg-primary {
     background-color: $theme-primary;
+
+    a {
+        color: rgba(white, .7);
+        text-decoration: underline;
+        &:hover,
+        &:focus {
+            color: rgba(white, .8);
+        }
+    }
 }
 
 .bg-dark {
@@ -155,7 +164,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/bg.jpg');
+    background-color: black;
     text-align: center;
     color: white;
     .header-content {
